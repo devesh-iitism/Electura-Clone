@@ -1,0 +1,11 @@
+p {
+	display: inline-block;
+}
+
+.textBox {
+	background-color: #27c3cf;
+	margin: auto;
+	border-radius: 10px;
+	border-bottom-left-radius: 65px;
+}
+
