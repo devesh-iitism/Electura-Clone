@@ -5,6 +5,7 @@ import Register from "./Register";
 import Cards from "./Cards";
 import SuccessPath from "./SuccessPath";
 import Footer from "./Footer";
+import LoginForm from "./LoginForm";
 
 class App extends Component {
 	render() {
@@ -24,7 +25,13 @@ class App extends Component {
 				/>
 				<Route 
 					exact path="/login" 
-					render={() => <h1>Login</h1>}	
+					render={() => (
+						<div>
+							<Navbar />
+							<LoginForm />
+							<Footer />
+						</div>
+					)}	
 				/>
 			</Switch>
 			

@@ -6,6 +6,16 @@
 	margin: auto;
 } */
 
+.footer-row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .footer-copy {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.text-nowrap {
 	text-align: center;
 }

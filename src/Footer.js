@@ -7,34 +7,34 @@ class Footer extends Component {
 			<div className="footer-body">
 				<div className="container">
 					<div className="row footer-row">
-						<div className="col">
+						<div className="col text-nowrap">
 							<a href="#">Home</a>
 						</div>
-						<div className="col">
-							<a href="#">Abut Us</a>
+						<div className="col text-nowrap">
+							<a href="#">About Us</a>
 						</div>
-						<div className="col">
+						<div className="col text-nowrap">
 							<a href="#">Join as Teacher</a>
 						</div>
-						<div className="col">
+						<div className="col text-nowrap">
 							<a href="#">Our Tutors</a>
 						</div>
-						<div className="col">
+						<div className="col text-nowrap">
 							<a href="#">Contact</a>
 						</div>
-						<div className="col">
+						<div className="col text-nowrap">
 							<a href="#">Disclaimer</a>
 						</div>
-						<div className="col">
+						<div className="col text-nowrap">
 							<a href="#">Blogs</a>
 						</div>
-						<div className="col">
+						<div className="col text-nowrap">
 							<a href="#">Buy a Course</a>
 						</div>
-						<div className="col">
+						<div className="col text-nowrap">
 							<a href="#">Privacy Policy</a>
 						</div>
-						<div className="col">
+						<div className="col text-nowrap">
 							<a href="#">Home New</a>
 						</div>
 					</div>

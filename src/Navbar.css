@@ -4,4 +4,13 @@
 
 .nav-link {
 	color: white;
+	font-size: 1rem;
+}
+
+.navbar-brand img {
+	height: 100%;
+}
+
+.navbar-img {
+	padding-bottom: 7px;
 }
