@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Register from "./Register";
 import Cards from "./Cards";
 import SuccessPath from "./SuccessPath";
+import Footer from "./Footer";
 
 class App extends Component {
 	render() {
@@ -12,6 +13,7 @@ class App extends Component {
 				<Register />
 				<Cards />
 				<SuccessPath />
+				<Footer />
 			</div>
 		)
 	}
