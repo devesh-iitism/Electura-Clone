@@ -4,7 +4,7 @@ import "./Navbar.css";
 class Navbar extends Component {
 	render() {
 		return (
-			<nav id="mainNavbar" className="navbar navbar-expand-md py-0">
+			<nav id="mainNavbar" className="navbar navbar-expand-md">
 				<a href="#" className="navbar-brand">Electura</a>
 				<button className="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
