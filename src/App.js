@@ -6,6 +6,7 @@ import Cards from "./Cards";
 import SuccessPath from "./SuccessPath";
 import Footer from "./Footer";
 import LoginForm from "./LoginForm";
+import UnderC from "./UnderC";
 
 class App extends Component {
 	render() {
@@ -33,6 +34,67 @@ class App extends Component {
 						</div>
 					)}	
 				/>
+				<Route 
+					exact path="/about-us" 
+					render={() => (
+						<div>
+							<Navbar />
+							<UnderC />
+							<Footer />
+						</div>
+					)}	
+				/>
+				<Route 
+					exact path="/tutors" 
+					render={() => (
+						<div>
+							<Navbar />
+							<UnderC />
+							<Footer />
+						</div>
+					)}	
+				/>
+				<Route 
+					exact path="/courses" 
+					render={() => (
+						<div>
+							<Navbar />
+							<UnderC />
+							<Footer />
+						</div>
+					)}	
+				/>
+				<Route 
+					exact path="/join" 
+					render={() => (
+						<div>
+							<Navbar />
+							<UnderC />
+							<Footer />
+						</div>
+					)}	
+				/>
+				<Route 
+					exact path="/blogs" 
+					render={() => (
+						<div>
+							<Navbar />
+							<UnderC />
+							<Footer />
+						</div>
+					)}	
+				/>
+				<Route 
+					exact path="/contact" 
+					render={() => (
+						<div>
+							<Navbar />
+							<UnderC />
+							<Footer />
+						</div>
+					)}	
+				/>
+				<Route render={() => <h1>Error 404</h1>} />
 			</Switch>
 			
 		)
