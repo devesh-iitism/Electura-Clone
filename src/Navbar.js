@@ -8,7 +8,7 @@ class Navbar extends Component {
 			<nav id="mainNavbar" className="navbar navbar-dark navbar-expand-md">
 				<Link to="/" className="navbar-brand">
 					<img className="navbar-img" src="https://electura.co/wp-content/uploads/2020/07/cropped-logo-3-192x192.png" height="160px" width="49px" />
-					<span >lectura</span>
+					<span>lectura</span>
 				</Link>
 				<button className="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>

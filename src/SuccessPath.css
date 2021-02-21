@@ -13,6 +13,11 @@
 	margin-bottom: 2.5rem;
 	border-radius: 10px;
 	border-bottom-left-radius: 65px;
+	transition: all .2s ease-in-out;
+}
+
+.textBox:hover {
+	transform: scale(1.03,1.03);
 }
 
 .container-custom {

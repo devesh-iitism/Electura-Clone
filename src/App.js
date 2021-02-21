@@ -19,9 +19,9 @@ class App extends Component {
 			<SwitchWithSlide>
 				<Route 
 					exact path="/" 
-					render={() => (
+					render={(routeProps) => (
 						<div>
-							<Navbar />
+							<Navbar {...routeProps}/>
 							<Register />
 							<Cards />
 							<SuccessPath />
@@ -31,10 +31,10 @@ class App extends Component {
 				/>
 				<Route 
 					exact path="/login" 
-					render={() => (
+					render={(routeProps) => (
 						<div>
 							<Navbar />
-							<LoginForm />
+							<LoginForm {...routeProps}/>
 							<Footer />
 						</div>
 					)}	

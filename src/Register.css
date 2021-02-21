@@ -16,6 +16,8 @@
 
 #headlineText {
 	font-size: 4em;
+	font-weight: bold;
+	color: white;
 }
 
 hr {

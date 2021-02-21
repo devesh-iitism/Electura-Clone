@@ -28,7 +28,7 @@ class SuccessPath extends Component {
 							<div className="review-footer">
 								<img src="https://electura.co/wp-content/uploads/2020/08/indian-boy-teenager-young-boy-2982850-e1598879893185.jpg" alt="" width="65" height="65" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
 								<p>Rohit (Student)</p>
-								<i class="fas fa-quote-right"></i>
+								<i className="fas fa-quote-right"></i>
 							</div>
 						</div>
 						<div className="col-lg-3 textBox">
@@ -36,7 +36,7 @@ class SuccessPath extends Component {
 							<div className="review-footer">
 								<img src="https://electura.co/wp-content/uploads/2020/07/220-SM832665-e1598879947986.jpg" alt="" width="65" height="65" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
 								<p>Neha (Parent)</p>
-								<i class="fas fa-quote-right"></i>
+								<i className="fas fa-quote-right"></i>
 							</div>
 						</div>
 						<div className="col-lg-3 textBox">
@@ -44,7 +44,7 @@ class SuccessPath extends Component {
 							<div className="review-footer">
 								<img src="https://electura.co/wp-content/uploads/2020/07/220-SM860530-e1594939645307.jpg" alt="" width="65" height="65"  className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />	
 								<p>Harsh (Tutor)</p>
-								<i class="fas fa-quote-right"></i>
+								<i className="fas fa-quote-right"></i>
 							</div>
 						</div>
 					</div>
