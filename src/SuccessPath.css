@@ -1,11 +1,128 @@
-p {
-	display: inline-block;
+@media (min-width: 992px) {
+	.col-lg-3 {
+		-ms-flex: 0 0 30%;
+		flex: 0 0 30%;
+		max-width: 30%;
+	}
 }
 
 .textBox {
 	background-color: #27c3cf;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2.5rem;
 	border-radius: 10px;
 	border-bottom-left-radius: 65px;
 }
 
+.container-custom {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 576px) {
+	.container-custom {
+		max-width: 540px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.container-custom {
+		max-width: 720px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.container-custom {
+    max-width: 960px;
+	}
+}
+
+
+@media screen and (min-width: 1200px) {
+	.container-custom {
+    max-width: 1300px;
+	}
+}
+
+p {
+	display: inline-block;
+}
+
+.textBox .para {
+	color: black;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.pathImg {
+	max-width: 768px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pathSuccess {
+	font-size: 59px;
+	text-align: center;
+	color: #1E3130;
+	margin-bottom: 2rem;
+}
+
+.afterImage {
+	margin-top: 2rem;
+	background-color: #D5E6E5;
+	border-radius: 2rem;
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.afterImagePara {
+	font-size: 22px;
+	color: black;
+	font-weight: bold;
+} 
+
+.reviewHeader {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.reviewHeader h1 {
+	font-weight: bold;
+}
+
+.reviewHeader hr {
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
+}
+
+.review {
+	margin-bottom: 3rem;
+}
+
+/* .img-thumbnail {
+	height: 65px!important;
+} */
+
+.review-footer {
+	padding: 10px;
+}
+
+.review-footer img {
+	margin-right: 10px;
+	height: 65px!important;
+}
+
+.review-footer i {
+	float: right;
+}

@@ -22,7 +22,7 @@ class Cards extends Component {
 					</div>
 					<div className="cardsCol col-xl-3 col-sm-6 mb-5">
 						<div className="bg-white rounded shadow-sm">
-							<img src="https://5.imimg.com/data5/RU/UJ/MY-17868609/school-gold-medal-500x500.jpg" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+							<img src="https://cdn0.iconfinder.com/data/icons/education-and-school-flat-1/128/Discussion_talking_coversation_study_meeting_class_comment-512.png" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
 							<h5 className="mb-2">For Classes 9th to 12th</h5>
 							<p>Changing the way of learning for 9th to 12th grade students with online 1 to 1 classes</p>
 						</div>
