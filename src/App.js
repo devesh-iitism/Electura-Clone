@@ -99,6 +99,36 @@ class App extends Component {
 						</div>
 					)}	
 				/>
+				<Route 
+					exact path="/disclaimer" 
+					render={() => (
+						<div>
+							<Navbar />
+							<UnderC />
+							<Footer />
+						</div>
+					)}	
+				/>
+				<Route 
+					exact path="/newHome" 
+					render={() => (
+						<div>
+							<Navbar />
+							<UnderC />
+							<Footer />
+						</div>
+					)}	
+				/>
+				<Route 
+					exact path="/policy" 
+					render={() => (
+						<div>
+							<Navbar />
+							<UnderC />
+							<Footer />
+						</div>
+					)}	
+				/>
 				<Route render={() => <h1>Error 404</h1>} />
 			</SwitchWithSlide>
 			

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
 import "./Footer.css";
 
 class Footer extends Component {
@@ -8,34 +9,34 @@ class Footer extends Component {
 				<div className="container">
 					<div className="row footer-row">
 						<div className="col text-nowrap">
-							<a href="#">Home</a>
+							<Link to="/">Home</Link>
 						</div>
 						<div className="col text-nowrap">
-							<a href="#">About Us</a>
+							<Link to="/about-us">About Us</Link>
 						</div>
 						<div className="col text-nowrap">
-							<a href="#">Join as Teacher</a>
+							<Link to="/join">Join as Teacher</Link>
 						</div>
 						<div className="col text-nowrap">
-							<a href="#">Our Tutors</a>
+							<Link to="/tutors">Our Tutors</Link>
 						</div>
 						<div className="col text-nowrap">
-							<a href="#">Contact</a>
+							<Link to="/contact">Contact</Link>
 						</div>
 						<div className="col text-nowrap">
-							<a href="#">Disclaimer</a>
+							<Link to="/disclaimer">Disclaimer</Link>
 						</div>
 						<div className="col text-nowrap">
-							<a href="#">Blogs</a>
+							<Link to="/blogs">Blogs</Link>
 						</div>
 						<div className="col text-nowrap">
-							<a href="#">Buy a Course</a>
+							<Link to="/courses">Buy a Course</Link>
 						</div>
 						<div className="col text-nowrap">
-							<a href="#">Privacy Policy</a>
+							<Link to="/policy">Privacy Policy</Link>
 						</div>
 						<div className="col text-nowrap">
-							<a href="#">Home New</a>
+							<Link to="/newHome">Home New</Link>
 						</div>
 					</div>
 					<div className="footer-copy">

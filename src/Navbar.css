@@ -14,3 +14,7 @@
 .navbar-img {
 	padding-bottom: 7px;
 }
+
+.navLinkActive {
+	color: #27c3cf!important;
+}
