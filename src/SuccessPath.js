@@ -6,7 +6,7 @@ class SuccessPath extends Component {
 		return (
 			<div className="container">
 				<h1>The Path to Success</h1>
-				<img src="https://electura.co/wp-content/uploads/2020/07/Presentation1-1-768x773.jpg" />
+				<img width="100%" src="https://electura.co/wp-content/uploads/2020/07/Presentation1-1-768x773.jpg" />
 				<div>
 					<p>Register for a webinar with an IITian Expert</p>
 					<button type="button" className="btn btn-primary">Register</button>

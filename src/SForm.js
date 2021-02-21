@@ -18,7 +18,9 @@ class SForm extends Component {
 							<label htmlFor="exampleInputEmail1">Phone Number</label>
 							<input type="text" className="form-control" />
 						</div>
-						<button type="button" className="btn btn-primary">Send</button>
+						<div className="formButton">
+							<button type="button" className="btn btn-primary">Send</button>
+						</div>
 					</div>
 				</form>
 			</div>

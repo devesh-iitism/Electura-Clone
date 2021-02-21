@@ -1,0 +1,27 @@
+.cardsCol {
+	margin: auto;
+}
+
+.cardsRow {
+    background-color: rgba(1,87,140,0.73);
+    margin-top: 22px;
+	border-radius: .45rem;
+	margin-bottom: 4rem;
+}
+
+.bg-white {
+	height: 18rem;
+	margin-top: 2.3rem;
+}
+
+.img-fluid {
+	margin-top: 2.3rem;
+}
+
+.someLine {
+	color: black;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 3rem;
+}

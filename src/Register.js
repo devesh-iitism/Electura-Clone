@@ -12,12 +12,12 @@ class Register extends Component {
 					</div>
 					<hr />
 					<div className="row">
-						<div id="headlineText" className="col-6">
+						<div id="headlineText" className="col-lg-6 col-sm-12">
 							Future achievers study from IITians Online
 							<br></br>
 							<button type="button" className="btn btn-primary">Register For Free</button>
 						</div>
-						<div className="col-6">
+						<div className="col-lg-6 col-sm-12">
 							<SForm />
 						</div>
 					</div>
