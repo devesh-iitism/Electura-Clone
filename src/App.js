@@ -7,13 +7,17 @@ import SuccessPath from "./SuccessPath";
 import Footer from "./Footer";
 import LoginForm from "./LoginForm";
 import UnderC from "./UnderC";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { animateSwitch } from "./animateSwitch";
 import { SlideOut } from "./SlideOut";
 
 const SwitchWithSlide = animateSwitch(Switch, SlideOut);
 
 class App extends Component {
+	componentDidMount() {
+	  AOS.init({duration: 1200});
+	}
 	render() {
 		return (
 			<SwitchWithSlide>

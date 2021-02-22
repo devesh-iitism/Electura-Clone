@@ -1,10 +1,15 @@
+.cardBody {
+	background-color: #fafafa;
+	padding-top: 4rem;
+}
+
 .cardsCol {
 	margin: auto;
 }
 
 .cardsRow {
     background-color: rgba(1,87,140,0.73);
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 	border-radius: .45rem;
 	margin-bottom: 4rem;
 }

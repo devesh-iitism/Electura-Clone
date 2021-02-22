@@ -6,6 +6,9 @@ class Footer extends Component {
 	render() {
 		return (
 			<div className="footer-body">
+				<div className="arrowIcon">
+					<a className="scroll" href="#mainNavbar"><i className="fas fa-arrow-circle-up"></i></a>
+				</div>
 				<div className="container">
 					<div className="row footer-row">
 						<div className="footerLinks col text-nowrap">
