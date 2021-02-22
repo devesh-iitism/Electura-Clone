@@ -43,7 +43,7 @@ class Footer extends Component {
 						</div>
 					</div>
 					<div className="footer-copy">
-						Copyright © 2021 Electura | Powered by BrandCobblers Services Pvt. Ltd.
+						Copyright © 2021 Devesh Chaturvedi
 					</div>
 				</div>
 			</div>

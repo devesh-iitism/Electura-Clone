@@ -5,6 +5,7 @@
 
 .cardsCol {
 	margin: auto;
+	margin-top: 1rem;
 }
 
 .cardsRow {
@@ -17,6 +18,10 @@
 .bg-white {
 	height: 18rem;
 	margin-top: 2.3rem;
+}
+
+.bg-white h5 {
+	font-weight: bold;
 }
 
 .img-fluid {
