@@ -2,10 +2,7 @@ import React, {Component} from "react";
 import "./LoginForm.css";
 import "./LoginFormUtil.css";
 
-
-localStorage.setItem("Devesh", "Devesh");
-
-class LoginForm extends Component {
+class Signup extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -29,23 +26,18 @@ class LoginForm extends Component {
 	handleSubmit(e) {
 		e.preventDefault();
 		var pass = localStorage.getItem(this.state.email);
-		console.log(pass);
-		if(!pass) {
-			alert("User Not Found, Please Signup!");
+		if(pass) {
+			alert("User Already Exists, Please Login!");
 		} else {
-			if(pass==this.state.password) {
-				localStorage.setItem("isLogin", JSON.stringify({yes: 1, name: this.state.email}));
-				this.props.history.push({
-						pathname: "/"
-					}
-				)
-				alert("Login Successful");
-			} else {
-				alert("Wrong Password");
-			}
+			localStorage.setItem(this.state.email, this.state.password);
+		
+			this.props.history.push({
+					pathname: "/login"
+				}
+			)
+			alert("Signup Successful, Please Login!");
 		}
 		
-		// alert("Login Successful");
 	}
 	
 	render() {
@@ -60,7 +52,7 @@ class LoginForm extends Component {
 								</span>
 
 								<span className="login100-form-title p-b-34 p-t-27">
-									Log in
+									Sign in
 								</span>
 
 								<div className="wrap-input100 validate-input" data-validate = "Enter username">
@@ -73,30 +65,10 @@ class LoginForm extends Component {
 									<span className="focus-input100" data-placeholder="&#xf191;"></span>
 								</div>
 
-								<div className="contact100-form-checkbox">
-									<input className="input-checkbox100" id="ckb1" type="checkbox" name="remember-me" />
-									<label className="label-checkbox100" htmlFor="ckb1">
-										Remember me
-									</label>
-								</div>
-
 								<div className="container-login100-form-btn">
 									<button className="login100-form-btn">
-										Login
+										Signup
 									</button>
-								</div>
-
-								<div className="text-center p-t-90 row">
-									<div className="col-6">
-										<a className="txt1" href="#">
-											Forgot Password?
-										</a>
-									</div>
-									<div className="col-6">
-										<a className="txt1" href="/signup">
-											Signup
-										</a>
-									</div>
 								</div>
 							</form>
 						</div>
@@ -110,4 +82,4 @@ class LoginForm extends Component {
 	}
 }
 
-export default LoginForm;
+export default Signup;

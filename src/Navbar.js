@@ -4,6 +4,8 @@ import "./Navbar.css";
 
 class Navbar extends Component {
 	render() {
+		var login = JSON.parse(localStorage.getItem("isLogin"));
+		console.log(login.yes);
 		return (
 			<nav data-aos="flip-right" id="mainNavbar" className="navbar navbar-dark navbar-expand-md">
 				<Link to="/" className="navbar-brand">
@@ -38,7 +40,11 @@ class Navbar extends Component {
 							<NavLink to="/contact" className="nav-link" activeClassName="navLinkActive">Contact</NavLink>
 						</li>
 						<li className="nav-item">
-							<NavLink to="/login" className="nav-link" activeClassName="navLinkActive">Login</NavLink>
+							{
+								login.yes ?
+									<a href="/" className="nav-link" >{`${login.name}(Logout)`}</a> :
+								<NavLink to="/login" className="nav-link" activeClassName="navLinkActive">Login</NavLink>
+							}
 						</li>
 					</ul>
 				</div>
